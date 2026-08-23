@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Santhiya A - Computer Science Engineering Student Portfolio. Passionate about programming, problem solving, AI, web development, and practical technology solutions.">
+  <title>Santhiya A | Computer Science Engineering Student</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/certifications.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- Desktop Cursor Glow (Subtle Cyber Light) -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Background Animated Canvas (Moving Grid, Particles & Constellations) -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Santhiya A Portfolio Home">
+        <div class="logo-badge">&lt;SA/&gt;</div>
+        <span>Santhiya A</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#quotes" class="nav-link">Perspective</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-cta">Get In Touch</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         1. HERO SECTION & DEVELOPER DIGITAL COMMAND CENTER
+         ======================================================================= -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left: Hero Text & Dynamic Role Rotator -->
+          <div class="hero-content">
+            <span class="hero-intro">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+              Hello, I'm
+            </span>
+
+            <h1 class="hero-title">
+              <span class="gradient-text">SANTHIYA A</span>
+            </h1>
+
+            <h3 class="hero-subtitle">
+              Computer Science Engineering Student
+            </h3>
+
+            <!-- Dynamic Rotating Tagline: BUILD • LEARN • INNOVATE -->
+            <div class="typewriter-wrapper">
+              <span class="typewriter-prefix">&gt;&nbsp;</span>
+              <span id="typewriter-text" class="typewriter-text">BUILD • LEARN • INNOVATE</span>
+            </div>
+
+            <!-- Status Pill -->
+            <div class="hero-status-pill">
+              <span class="pulse-indicator"></span>
+              <span>Building • Learning • Solving • Innovating</span>
+            </div>
+
+            <!-- Short Description -->
+            <p class="hero-description">
+              Passionate about programming, problem solving, artificial intelligence, web development, and building practical technology solutions.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>VIEW MY PROJECTS</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <button type="button" class="btn btn-secondary open-resume-modal-btn">
+                <span>DOWNLOAD RESUME</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </button>
+            </div>
+
+            <!-- Social Links (Exact Verified Links) -->
+            <div class="hero-social-group">
+              <span class="social-label">Connect:</span>
+              <div class="social-links">
+                <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub - @santhiya-technician" aria-label="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/santhiyainnovates" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn - @santhiyainnovates" aria-label="LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:sandhiya8333@gmail.com" class="social-btn" title="Email Santhiya" aria-label="Email">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: 3D Developer Digital Command Center (Strictly No Human Images) -->
+          <div class="hero-visual-wrapper">
+            <div class="command-center">
+              <!-- Central Glowing Core -->
+              <div class="core-sphere">
+                <div class="core-code-icon">&lt;/&gt;</div>
+                <div class="core-subtext">DEV COMMAND</div>
+              </div>
+
+              <!-- Orbital Multi-tier Rings -->
+              <div class="orbit-ring ring-1"></div>
+              <div class="orbit-ring ring-2"></div>
+              <div class="orbit-ring ring-3"></div>
+              <div class="orbit-ring ring-radar"></div>
+
+              <!-- Floating / Orbiting Technology Badges -->
+              <div class="tech-badge cyan badge-cpp">C++</div>
+              <div class="tech-badge purple badge-py">Python</div>
+              <div class="tech-badge emerald badge-java">Java</div>
+              <div class="tech-badge amber badge-js">JS</div>
+              <div class="tech-badge rose badge-html">HTML</div>
+              <div class="tech-badge cyan badge-css">CSS</div>
+              <div class="tech-badge purple badge-github">C</div>
+              <div class="tech-badge emerald badge-dsa">DSA</div>
+              <div class="tech-badge cyan badge-ai">AI</div>
+              <div class="tech-badge amber badge-code">{ }</div>
+
+              <!-- Perspective Ground Grid -->
+              <div class="command-grid-base"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT SECTION & PERSONAL BRAND STATEMENT
+         ======================================================================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01. ABOUT ME</span>
+          <h2 class="section-title">Engineering Foundations &amp; Purpose</h2>
+          <p class="section-subtitle">
+            A student actively learning, building projects, and developing practical engineering skills.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio Column -->
+          <div class="about-text-column">
+            <p class="about-bio">
+              I'm a <strong>Computer Science Engineering student</strong> passionate about programming, problem solving, artificial intelligence, web development, and building practical technology solutions.
+            </p>
+            <p class="about-bio">
+              Currently pursuing my undergraduate engineering degree at <strong>Velammal Institute of Technology, Chennai (Anna University)</strong>, I focus on transforming core algorithmic thinking and computing principles into functional software and accessible user experiences.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-title">DEGREE &amp; INSTITUTION</span>
+                <span class="highlight-value">B.E. CSE • Velammal Inst. of Tech (Anna Univ)</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-title">BATCH &amp; ACADEMICS</span>
+                <span class="highlight-value">2025 – 2029 • CGPA: 9.17/10.0 (Top 10%)</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-title">CORE FOCUS</span>
+                <span class="highlight-value">Programming, DSA &amp; Web Development</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-title">LEARNING PHILOSOPHY</span>
+                <span class="highlight-value">Continuous Learning &amp; Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Staggered "What Drives Me?" Personal Brand Card -->
+          <div class="what-drives-me-card">
+            <div class="card-header-tag">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="12 8 8 12 12 16 12 8"></polygon></svg>
+              Core Philosophy
+            </div>
+            <h3 class="card-title">What Drives Me?</h3>
+
+            <div class="driver-lines">
+              <div class="driver-line">
+                <span class="driver-dot"></span>
+                <span>Curiosity drives me to explore.</span>
+              </div>
+              <div class="driver-line">
+                <span class="driver-dot"></span>
+                <span>Challenges push me to improve.</span>
+              </div>
+              <div class="driver-line">
+                <span class="driver-dot"></span>
+                <span>Projects give me a reason to build.</span>
+              </div>
+              <div class="driver-line">
+                <span class="driver-dot"></span>
+                <span>And every new skill brings me one step closer to the engineer I want to become.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. "ABOUT SANTHIYA" ROTATING QUOTE SECTION
+         ======================================================================= -->
+    <section id="quotes" class="quote-carousel-section">
+      <div class="container">
+        <div class="quote-carousel-wrapper">
+          <div class="quote-icon-decor">&ldquo;</div>
+          <span class="quote-section-tag">// A LITTLE MORE ABOUT ME</span>
+
+          <div id="quotes-container" class="quotes-container">
+            <!-- Populated via js/quote-carousel.js -->
+          </div>
+
+          <div class="quote-controls">
+            <button id="quote-prev-btn" class="quote-nav-btn" aria-label="Previous statement">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+
+            <div id="quote-dots" class="quote-dots">
+              <!-- Rendered dynamically -->
+            </div>
+
+            <button id="quote-next-btn" class="quote-nav-btn" aria-label="Next statement">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. SKILLS & TECHNICAL STACK SECTION (Honest Labels - No Fake Percentages)
+         ======================================================================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02. TECHNICAL SKILLS</span>
+          <h2 class="section-title">Core Competencies &amp; Tooling</h2>
+          <p class="section-subtitle">
+            Honest foundations in programming, computing principles, and modern development.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category: Programming -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-item-row">
+                <span class="skill-name">Python</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Java</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">C / C++</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Web -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Web Development</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-item-row">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">JavaScript (ES6+)</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Responsive UI Design</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Computer Science -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Computer Science</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-item-row">
+                <span class="skill-name">Data Structures</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Algorithms</span>
+                <span class="skill-level-badge intermediate">Intermediate</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Object-Oriented Programming</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Problem Solving</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Interests & Learning -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+              </div>
+              <h3 class="skill-category-title">Interests / Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-item-row">
+                <span class="skill-name">Artificial Intelligence</span>
+                <span class="skill-level-badge learning">Learning</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Machine Learning</span>
+                <span class="skill-level-badge learning">Learning</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Data Science</span>
+                <span class="skill-level-badge learning">Learning</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Full Stack Development</span>
+                <span class="skill-level-badge familiar">Familiar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category: Tools & Platforms -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-item-row">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">CSV Data Management</span>
+                <span class="skill-level-badge proficient">Proficient</span>
+              </div>
+              <div class="skill-item-row">
+                <span class="skill-name">Microcontrollers &amp; IoT</span>
+                <span class="skill-level-badge familiar">Familiar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. FEATURED PROJECTS SECTION (Strictly No Human Images)
+         ======================================================================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03. FEATURED PROJECTS</span>
+          <h2 class="section-title">Practical Engineering Solutions</h2>
+          <p class="section-subtitle">
+            Hands-on projects designed with abstract technology illustrations, architectural pipelines, and real telemetry.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: AI Flood Risk Prediction -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="visual-ai-flood">
+                <div class="flood-radar-grid"></div>
+                <div class="flood-wave-ring"></div>
+                <div class="flood-wave-ring"></div>
+
+                <!-- Pipeline Illustration: AI -> Data -> Risk Prediction -> Alert -->
+                <div class="pipeline-flow">
+                  <div class="pipeline-node">
+                    <div class="node-icon">AI</div>
+                    <span class="node-label">Model</span>
+                  </div>
+                  <span class="pipeline-arrow">→</span>
+                  <div class="pipeline-node">
+                    <div class="node-icon">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                    </div>
+                    <span class="node-label">Data</span>
+                  </div>
+                  <span class="pipeline-arrow">→</span>
+                  <div class="pipeline-node">
+                    <div class="node-icon">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <span class="node-label">Risk Pred</span>
+                  </div>
+                  <span class="pipeline-arrow">→</span>
+                  <div class="pipeline-node alert">
+                    <div class="node-icon">!</div>
+                    <span class="node-label">Alert</span>
+                  </div>
+                </div>
+
+                <!-- Live Telemetry Simulation -->
+                <div class="live-telemetry">
+                  <span id="flood-telemetry-water" class="telemetry-tag">Water Level: 2.55m</span>
+                  <span id="flood-telemetry-risk" class="telemetry-tag" style="color: #fb7185; border-color: rgba(244,63,94,0.3);">Risk Index: 72%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Artificial Intelligence &amp; Geospatial ML</span>
+              <h3 class="project-title">AI Flood Risk Prediction</h3>
+              <p class="project-description">
+                An intelligent environmental predictive model that analyzes topographical and meteorological data streams to estimate flood probability and trigger early warning notifications.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Predictive Analytics</span>
+                <span class="tech-tag">Data Modeling</span>
+              </div>
+              <div class="project-links">
+                <button type="button" class="btn btn-primary btn-sm view-project-btn" data-project-id="ai-flood">
+                  <span>VIEW PROJECT</span>
+                </button>
+                <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GITHUB</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm disabled" title="Architecture Model" disabled>
+                  <span>LIVE DEMO</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Mental Health Awareness Website -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="visual-mental-health">
+                <div class="abstract-browser-frame">
+                  <div class="browser-header">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                  </div>
+                  <div class="browser-canvas">
+                    <div class="calm-waveform">
+                      <div class="wave-line"></div>
+                      <span class="mono-tag" style="font-size: 0.65rem; z-index: 1;">Calm Metrics Flow</span>
+                    </div>
+                    <div class="ui-widget-column">
+                      <div class="widget-bar accent-1"></div>
+                      <div class="widget-bar accent-2"></div>
+                      <div class="widget-bar accent-3"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Web Engineering &amp; Accessible Design</span>
+              <h3 class="project-title">Mental Health Awareness Website</h3>
+              <p class="project-description">
+                An interactive web platform with 5+ engaging stress-relief mini-games targeting student wellness, achieving 95+ Lighthouse accessibility and lazy-loaded performance.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <div class="project-links">
+                <button type="button" class="btn btn-primary btn-sm view-project-btn" data-project-id="mental-health">
+                  <span>VIEW PROJECT</span>
+                </button>
+                <a href="https://github.com/santhiya-technician/mental-health-awareness" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GITHUB</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm disabled" title="Web App Hosted" disabled>
+                  <span>LIVE DEMO</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Automatic Garage Door System -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="visual-iot-garage">
+                <div class="iot-flow-box">
+                  <div class="iot-component">
+                    <div class="iot-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M7 8l-5 4 5 4M17 8l5 4-5 4"></path></svg>
+                    </div>
+                    <span class="node-label">Ultrasonic</span>
+                  </div>
+
+                  <div class="iot-signal-wave">
+                    <span class="signal-bar"></span>
+                    <span class="signal-bar"></span>
+                    <span class="signal-bar"></span>
+                    <span class="signal-bar"></span>
+                  </div>
+
+                  <div class="iot-component">
+                    <div class="iot-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"></rect><path d="M9 9h6v6H9z"></path></svg>
+                    </div>
+                    <span class="node-label">Arduino MCU</span>
+                  </div>
+
+                  <span class="pipeline-arrow">→</span>
+
+                  <div class="iot-component">
+                    <div class="iot-icon-box">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="8"></circle><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83"></path></svg>
+                    </div>
+                    <span class="node-label">Servo Motor</span>
+                  </div>
+                </div>
+
+                <div class="live-telemetry">
+                  <span id="garage-telemetry-dist" class="garage-status-badge">Echo: 12 cm</span>
+                  <span id="garage-telemetry-status" class="garage-status-badge">Door Active</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Embedded Systems &amp; IoT Automation</span>
+              <h3 class="project-title">Automatic Garage Door System</h3>
+              <p class="project-description">
+                An automated entry controller leveraging ultrasonic distance triangulation with an Arduino microcontroller to actuate high-torque servo motors safely.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">C / C++</span>
+                <span class="tech-tag">Ultrasonic Sensor</span>
+                <span class="tech-tag">Servo Actuation</span>
+              </div>
+              <div class="project-links">
+                <button type="button" class="btn btn-primary btn-sm view-project-btn" data-project-id="iot-garage">
+                  <span>VIEW PROJECT</span>
+                </button>
+                <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GITHUB</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm disabled" title="Hardware System" disabled>
+                  <span>LIVE DEMO</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: QUEUES MINUTE (New Project) -->
+          <div class="project-card">
+            <div class="project-visual">
+              <div class="visual-queues-minute">
+                <div class="queue-fifo-container">
+                  <span class="queue-action-pill">Enqueue →</span>
+                  <div class="queue-slots-bar">
+                    <div class="queue-element-slot front">
+                      <span class="slot-val">0x1A</span>
+                      <span class="queue-slot-label">Front</span>
+                    </div>
+                    <div class="queue-element-slot">
+                      <span class="slot-val">0x2B</span>
+                      <span class="queue-slot-label">Node 1</span>
+                    </div>
+                    <div class="queue-element-slot">
+                      <span class="slot-val">0x3C</span>
+                      <span class="queue-slot-label">Node 2</span>
+                    </div>
+                    <div class="queue-element-slot rear">
+                      <span class="slot-val">0x4D</span>
+                      <span class="queue-slot-label">Rear</span>
+                    </div>
+                  </div>
+                  <span class="queue-action-pill">→ Dequeue</span>
+                </div>
+
+                <div class="live-telemetry">
+                  <span id="queue-telemetry-status" class="telemetry-tag">Queue State: Active FIFO Stream</span>
+                  <span class="telemetry-tag" style="color: #00f2fe;">FIFO Protocol</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-category">Data Structures &amp; Algorithms</span>
+              <h3 class="project-title">QUEUES MINUTE</h3>
+              <p class="project-description">
+                A focused project related to understanding and working with queue data structures.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Data Structures</span>
+                <span class="tech-tag">Queue (FIFO)</span>
+                <span class="tech-tag">Algorithms</span>
+                <span class="tech-tag">Problem Solving</span>
+              </div>
+              <div class="project-links">
+                <button type="button" class="btn btn-primary btn-sm view-project-btn" data-project-id="queues-minute">
+                  <span>VIEW PROJECT</span>
+                </button>
+                <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>GITHUB</span>
+                </a>
+                <button type="button" class="btn btn-secondary btn-sm disabled" title="Algorithm Implementation" disabled>
+                  <span>LIVE DEMO</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. CERTIFICATIONS & COURSES SECTION (STRICTLY VERIFIED ONLY)
+         ======================================================================= -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04. CONTINUOUS LEARNING</span>
+          <h2 class="section-title">CERTIFICATIONS &amp; COURSES</h2>
+          <p class="section-subtitle">
+            &ldquo;Learning doesn't stop at the classroom.&rdquo;
+          </p>
+        </div>
+
+        <!-- Achievement Display: Learning Journey & Counter -->
+        <div class="cert-achievement-header">
+          <div class="learning-journey-wrapper">
+            <div class="learning-journey-title">// Learning Journey Cycle</div>
+            <div class="journey-steps">
+              <div class="journey-step">
+                <div class="step-node">01</div>
+                <span class="step-label">LEARN</span>
+              </div>
+              <span class="journey-arrow">→</span>
+
+              <div class="journey-step">
+                <div class="step-node">02</div>
+                <span class="step-label">PRACTICE</span>
+              </div>
+              <span class="journey-arrow">→</span>
+
+              <div class="journey-step">
+                <div class="step-node">03</div>
+                <span class="step-label">BUILD</span>
+              </div>
+              <span class="journey-arrow">→</span>
+
+              <div class="journey-step">
+                <div class="step-node">04</div>
+                <span class="step-label">CERTIFY</span>
+              </div>
+              <span class="journey-arrow">→</span>
+
+              <div class="journey-step">
+                <div class="step-node">05</div>
+                <span class="step-label">IMPROVE</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Counter: 4 Verified Certifications -->
+          <div class="courses-counter-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span id="courses-counter-val" class="counter-number">4 VERIFIED CERTIFICATIONS</span>
+          </div>
+        </div>
+
+        <!-- Filter Tabs: All | AI & Tools | Professional Skills | Web Development -->
+        <div class="cert-filter-nav">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ai-tools">AI &amp; Tools</button>
+          <button class="filter-btn" data-filter="professional">Professional Skills</button>
+          <button class="filter-btn" data-filter="web-dev">Web Development</button>
+        </div>
+
+        <!-- Certificate Cards Grid (Populated via js/certificates.js) -->
+        <div id="cert-grid" class="cert-grid">
+          <!-- Dynamically populated with strictly verified certificates -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. PORTFOLIO CLOSING QUOTE (BEFORE CONTACT)
+         ======================================================================= -->
+    <section class="closing-quote-section">
+      <div class="container">
+        <div class="closing-quote-card">
+          <h2 class="closing-title">&ldquo;The journey is still being written.&rdquo;</h2>
+          <p class="closing-steps">Learning. Building. Failing. Improving. Repeating.</p>
+          <span class="closing-author">— Santhiya A</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. CONTACT & CONNECT SECTION
+         ======================================================================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05. INITIATE TRANSMISSION</span>
+          <h2 class="section-title">LET'S CONNECT</h2>
+          <p class="section-subtitle">
+            I'm always interested in learning, building, collaborating, and exploring new opportunities.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details (Strictly Verified Links - No Phone) -->
+          <div class="glass-card contact-info-card">
+            <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem;">Direct Channels</h3>
+
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div style="flex: 1;">
+                <span class="mono-tag" style="font-size: 0.75rem;">EMAIL</span>
+                <p style="font-weight: 600; font-size: 0.95rem;">
+                  <a href="mailto:sandhiya8333@gmail.com" style="color: inherit; text-decoration: none;">sandhiya8333@gmail.com</a>
+                </p>
+              </div>
+              <button id="copy-email-btn" class="btn btn-secondary btn-sm" data-email="sandhiya8333@gmail.com" aria-label="Copy Email">
+                Copy
+              </button>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </div>
+              <div style="flex: 1;">
+                <span class="mono-tag" style="font-size: 0.75rem;">LINKEDIN</span>
+                <p style="font-weight: 600; font-size: 0.95rem;">linkedin.com/in/santhiyainnovates</p>
+              </div>
+              <a href="https://www.linkedin.com/in/santhiyainnovates" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                Open
+              </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </div>
+              <div style="flex: 1;">
+                <span class="mono-tag" style="font-size: 0.75rem;">GITHUB</span>
+                <p style="font-weight: 600; font-size: 0.95rem;">github.com/santhiya-technician</p>
+              </div>
+              <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                Open
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Message Console -->
+          <form id="contact-form" class="glass-card contact-form">
+            <h3 style="font-size: 1.35rem;">Send a Message</h3>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Your Name</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="Name or Organization" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-email">Your Email</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="your.email@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" class="form-control" placeholder="Collaboration / Project / Internship" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Message Content</label>
+              <textarea id="contact-message" class="form-control" placeholder="Hello Santhiya, I came across your portfolio..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem;">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo-badge">&lt;SA/&gt;</div>
+      <div class="footer-links">
+        <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/santhiyainnovates" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          LinkedIn
+        </a>
+        <a href="mailto:sandhiya8333@gmail.com" class="footer-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          Email
+        </a>
+      </div>
+      <p class="footer-text">
+        &copy; 2026 Santhiya A. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top-btn" class="back-to-top-btn" aria-label="Back to Top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- =======================================================================
+       PROJECT DETAILS MODAL
+       ======================================================================= -->
+  <div id="project-modal-overlay" class="project-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="project-modal-container">
+      <button id="project-modal-close" class="cert-modal-close" aria-label="Close project modal">&times;</button>
+
+      <span id="modal-project-category" class="mono-tag">// PROJECT CATEGORY</span>
+      <h3 id="modal-project-title" style="font-size: 1.55rem; margin-top: 0.35rem; color: var(--accent-cyan);">Project Title</h3>
+
+      <div id="modal-project-body">
+        <!-- Dynamically rendered with problem, solution, technologies, features, contribution, future scope -->
+      </div>
+
+      <div style="margin-top: 1.75rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        <a id="modal-project-github" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <span>View on GitHub</span>
+        </a>
+        <a id="modal-project-demo" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="display: none;">
+          <span>Live Demo</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       CERTIFICATE PREVIEW MODAL
+       ======================================================================= -->
+  <div id="cert-modal-overlay" class="cert-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-cert-title">
+    <div class="cert-modal-container">
+      <button id="cert-modal-close" class="cert-modal-close" aria-label="Close certificate modal">&times;</button>
+
+      <span class="mono-tag">// VERIFIED CREDENTIAL</span>
+      <h3 id="modal-cert-title" style="font-size: 1.45rem; margin-top: 0.4rem; color: var(--accent-cyan);">Certificate Title</h3>
+      <p id="modal-cert-issuer" style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.2rem;">Issued by: Organization</p>
+      <p id="modal-cert-date" class="mono-tag" style="color: var(--text-muted); font-size: 0.8rem; margin-top: 0.2rem;">Date Details</p>
+
+      <div class="modal-cert-preview">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#00f2fe" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+        <p id="modal-cert-desc" style="font-size: 0.9rem; color: var(--text-secondary); max-width: 480px; line-height: 1.5; margin-top: 0.35rem;">Official verification &amp; credential breakdown.</p>
+      </div>
+
+      <div>
+        <span class="mono-tag" style="font-size: 0.75rem; display: block; margin-bottom: 0.5rem;">VALIDATED SKILLS &amp; TOPICS</span>
+        <div id="modal-cert-skills" class="cert-skill-tags"></div>
+      </div>
+
+      <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem;">
+        <a id="modal-cert-action-btn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="flex: 1;">
+          <span>Verify Credential</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       RESUME VIEWER / DOWNLOAD MODAL (Accurate Academic & Technical Details)
+       ======================================================================= -->
+  <div id="resume-modal-overlay" class="resume-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-resume-title">
+    <div class="resume-modal-container">
+      <button id="resume-modal-close" class="cert-modal-close" aria-label="Close resume modal">&times;</button>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;">
+        <div>
+          <span class="mono-tag">// VERIFIED PROFILE RESUME</span>
+          <h3 id="modal-resume-title" style="font-size: 1.4rem; color: var(--accent-cyan); margin-top: 0.2rem;">SANTHIYA A — RESUME</h3>
+        </div>
+        <button type="button" onclick="window.print()" class="btn btn-primary btn-sm">
+          <span>Print / Save as PDF</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+        </button>
+      </div>
+
+      <div class="resume-paper">
+        <!-- Header -->
+        <div class="resume-header">
+          <h2 class="resume-name">SANTHIYA A</h2>
+          <p class="resume-role">Full Stack Developer | Building While Learning</p>
+          <div class="resume-contact-bar">
+            <span>Chennai, Tamil Nadu</span> •
+            <span>sandhiya8333@gmail.com</span> •
+            <a href="https://www.linkedin.com/in/santhiyainnovates" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan);">linkedin.com/in/santhiyainnovates</a> •
+            <a href="https://github.com/santhiya-technician" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan);">github.com/santhiya-technician</a>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div>
+          <h4 class="resume-section-heading">Education</h4>
+          <div style="margin-top: 0.5rem;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700;">
+              <span>B.E. Computer Science Engineering</span>
+              <span class="mono-tag">2025 – 2029</span>
+            </div>
+            <p style="color: var(--accent-blue); font-size: 0.9rem;">Velammal Institute of Technology, Chennai (Anna University)</p>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem;">CGPA: <strong>9.17 / 10.0 (91.7%)</strong> | Semester 1 Rank: <strong>Top 10% of cohort</strong></p>
+          </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div>
+          <h4 class="resume-section-heading">Technical Skills</h4>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 0.5rem; font-size: 0.88rem;">
+            <div><strong>Languages:</strong> Python, Java, C/C++, SQL</div>
+            <div><strong>Web Stack:</strong> HTML5, CSS3, JavaScript (ES6+), Responsive Design</div>
+            <div><strong>Tools &amp; Platforms:</strong> Git/GitHub, VS Code, CSV Data Management</div>
+            <div><strong>Concepts:</strong> Data Structures, OOP, Problem Solving</div>
+          </div>
+        </div>
+
+        <!-- Featured Projects -->
+        <div>
+          <h4 class="resume-section-heading">Featured Projects</h4>
+          <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-top: 0.5rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 600;">
+                <span>Mental Health Awareness Website</span>
+                <span class="mono-tag" style="font-size: 0.75rem;">HTML5, CSS3, JS</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Designed and deployed interactive platform with 5+ stress-relief mini-games; 95+ Lighthouse score; 40% initial load time reduction.</p>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 600;">
+                <span>AI Flood Risk Prediction</span>
+                <span class="mono-tag" style="font-size: 0.75rem;">Python, ML</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Environmental predictive modeling analyzing meteorological data streams to estimate probabilistic flood risk.</p>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 600;">
+                <span>Automatic Garage Door Controller</span>
+                <span class="mono-tag" style="font-size: 0.75rem;">Arduino, C++</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">Embedded microcontroller system using ultrasonic distance triangulation to automate entrance servo motors safely.</p>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 600;">
+                <span>Queues Minute</span>
+                <span class="mono-tag" style="font-size: 0.75rem;">DSA</span>
+              </div>
+              <p style="font-size: 0.85rem; color: var(--text-secondary);">A focused project related to understanding and working with queue data structures.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Verified Certifications -->
+        <div>
+          <h4 class="resume-section-heading">Verified Certifications</h4>
+          <ul class="modal-feature-list" style="margin-top: 0.4rem; font-size: 0.85rem;">
+            <li><strong>AI Tools Mastery Workshop</strong> — AI Tools Mastery / Clapingo (May 2026)</li>
+            <li><strong>Lifelong Professional Skills</strong> — IBM SkillsBuild via Credly (July 2026)</li>
+            <li><strong>AI Fundamentals: Foundations for Understanding AI</strong> — IBM SkillsBuild via Credly (July 2026)</li>
+            <li><strong>30 Days MasterClass in Full Stack Development</strong> — NoviTech R&amp;D Private Limited (Cert ID: NT_B23FSDEE187, July 2026)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/canvas-bg.js"></script>
+  <script src="js/hero-visual.js"></script>
+  <script src="js/quote-carousel.js"></script>
+  <script src="js/certificates.js"></script>
+  <script src="js/project-flows.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
